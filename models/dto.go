@@ -1,4 +1,4 @@
-package main
+package models
 
 import (
 	"time"
@@ -12,6 +12,6 @@ type Job struct {
 }
 
 type Event struct {
-	job     Job
+	Job     Job
 	EndTime time.Time
 }
